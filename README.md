@@ -33,3 +33,6 @@ Project ini dibuat untuk kebutuhan sekolah atau institusi pendidikan berbasis we
 
 ## 🤖 Flowchart
 ![Flowchart Absensi](flowchartz.svg)
+
+## 🪢 Diagram DB
+![DiagrabDB Absensi](Untitled.svg)
