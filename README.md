@@ -30,3 +30,6 @@ Sistem informasi absensi siswa dengan 3 level user (Admin, Guru, Siswa), dilengk
 
 ## 📌 Catatan
 Project ini dibuat untuk kebutuhan sekolah atau institusi pendidikan berbasis web.
+
+## 🤖 Flowchart
+![Flowchart Absensi](flowchartattar.png)
