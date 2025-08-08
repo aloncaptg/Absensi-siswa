@@ -1,71 +1,39 @@
 # 📚 Absensi Siswa - Web Application
 
-Sistem informasi **absensi siswa berbasis web** dengan 3 level user (**Admin**, **Guru**, **Siswa**). Aplikasi ini dilengkapi dengan fitur rekap absensi dan laporan per kelas, serta pencatatan status kehadiran: **Hadir**, **Izin**, **Sakit**, dan **Alpha**.
-
----
+Sistem informasi absensi siswa dengan 3 level user (Admin, Guru, Siswa), dilengkapi fitur rekap dan laporan per kelas berdasarkan status kehadiran: **Hadir, Izin, Sakit, Alpha**.
 
 ## 🎯 Fitur Utama
+- 🔐 Login multi-level (Admin / Guru / Siswa)
+- 📅 Pencatatan absensi siswa per mata pelajaran
+- 📊 Rekap absensi otomatis per kelas
+- 🧾 Laporan bulanan absensi siswa
 
-- 🔐 **Login Multi-Level**: Admin, Guru, dan Siswa
-- 📅 **Pencatatan Absensi** per mata pelajaran dan kelas
-- 📊 **Rekap Absensi Otomatis** berdasarkan tanggal dan status
-- 🧾 **Laporan Bulanan** absensi siswa (per kelas)
+## 👥 Role User
+| Level  | Akses                                                                 |
+|--------|-----------------------------------------------------------------------|
+| Admin  | Manajemen data guru, siswa, kelas                                     |
+| Guru   | Input kehadiran siswa, lihat rekap                                    |
+| Siswa  | Lihat histori kehadiran pribadi                                      |
 
----
+## 📁 Struktur Folder
+- `/docs` → Flowchart & Diagram Basis Data
+- `/public/tampilan` → Gambar UI
+- `/src` → Kode program
 
-## 👥 Role & Akses Pengguna
+## 🛠️ Teknologi
+- PHP / MySQL / SB Admin 2 (template admin)
+- DBdiagram.io (untuk database)
+- draw.io (untuk flowchart)
 
-| Level  | Hak Akses                                                                 |
-|--------|---------------------------------------------------------------------------|
-| **Admin**  | Kelola data guru, siswa, kelas, akun user                             |
-| **Guru**   | Input absensi, lihat rekap per kelas, cetak laporan                   |
-| **Siswa**  | Lihat histori kehadiran pribadi                                       |
+## 📸 Tampilan
+![UI Absensi](public/tampilan/absensi-ui.png)
 
----
+## 📌 Catatan
+Project ini dibuat untuk kebutuhan sekolah atau institusi pendidikan berbasis web.
 
-## 🛠️ Teknologi yang Digunakan
+## 🤖 Flowchart
+![Flowchart Absensi](flowchartz.svg)
 
-- **PHP** (Backend)
-- **MySQL** (Database)
-- **SB Admin 2** (Admin template)
-- **Draw.io** (Flowchart)
-- **DBdiagram.io** (Diagram Basis Data)
-
----
-
-## 📸 Tampilan Antarmuka
-
-> Tampilan halaman utama absensi siswa:
-
-![Tampilan UI Absensi](public/tampilan/absensi-ui.png)
-
----
-
-## 🤖 Flowchart Sistem
-
-> Diagram alur sistem login dan peran user:
-
-![Flowchart Sistem Absensi](docs/flowchartattar.png)
-
----
-
-## 🪢 Diagram Basis Data
-
-> Relasi antar tabel di database sistem absensi siswa:
-
-![Diagram DB](docs/dbdiagram.svg)
-
----
-
-## 📌 Catatan Tambahan
-
-- Proyek ini dapat digunakan oleh **sekolah, madrasah, atau institusi pendidikan**.
-- Untuk kontribusi atau pengembangan lebih lanjut, silakan buat *pull request* atau *issue* di repository ini.
-
----
-
-## ✍️ Dibuat oleh
-
-**Attar - Kelas XI RPL**  
-Tahun: 2025  
-Lisensi: MIT
+## 🪢 Diagram DB
+![DiagrabDB Absensi](Untitled.svg)
+tolong bikin lebih bagus dan perjelas punya ku
