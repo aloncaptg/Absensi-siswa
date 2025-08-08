@@ -36,4 +36,10 @@ Project ini dibuat untuk kebutuhan sekolah atau institusi pendidikan berbasis we
 
 ## 🪢 Diagram DB
 ![DiagrabDB Absensi](Untitled.svg)
-tolong bikin lebih bagus dan perjelas punya ku
+
+
+## ✍️ Dibuat oleh
+
+**Attar - Kelas XI RPL**  
+Tahun: 2025  
+Lisensi: MIT
