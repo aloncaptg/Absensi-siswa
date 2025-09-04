@@ -38,9 +38,8 @@ Project ini dibuat untuk kebutuhan sekolah atau institusi pendidikan berbasis we
 ![DiagrabDB Absensi](Untitled.svg)
 
 
-## 📖 Activity diagram
-![DiagrabDB Absensi](Untitled.svg)
-
+## 🛒 Activity diagram
+![DiagrabDB Absensi](activitydrag.svg)
 
 ## ✍️ Dibuat oleh
 
