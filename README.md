@@ -41,6 +41,10 @@ Project ini dibuat untuk kebutuhan sekolah atau institusi pendidikan berbasis we
 ## 🛒 Activity diagram
 ![DiagrabDB Absensi](activitydrag.svg)
 
+
+## 🥊 Use case diagram
+![DiagrabDB Absensi](usecase.svg)
+
 ## ✍️ Dibuat oleh
 
 **Attar - Kelas XI RPL**  
